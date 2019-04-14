@@ -1,8 +1,7 @@
 var bodyParser = require('body-parser');
 
-var urlencodedParser = bodyParser.urlencoded({ extended: false });
-
 var data = [{item: 'Play'}, {item: 'Work'}, {item: 'Get up and work your ass off'}];
+var urlencodedParser = bodyParser.urlencoded({ extended: false });
 
 module.exports = function(app){
 
